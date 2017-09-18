@@ -3,6 +3,8 @@ import React from 'react';
 // instead of render with bunch of function. it is not necessary to create
 // a component
 
+
+
 const Header = (props) => {
   return (
     <header className="top">
@@ -22,5 +24,7 @@ const Header = (props) => {
 
 }
 
-
+Header.propTypes = {
+  tagline: React.PropTypes.string.isRequired
+}
 export default Header

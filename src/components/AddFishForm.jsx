@@ -32,4 +32,7 @@ class AddFishFrom extends React.Component {
   }
 }
 
+AddFishFrom.propTypes = {
+  addFish: React.PropTypes.func.isRequired,
+}
 export default AddFishFrom
